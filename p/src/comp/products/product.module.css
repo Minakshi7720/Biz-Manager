@@ -1,0 +1,93 @@
+@media only screen and (min-width: 450px) {
+	.desktopview {
+		position: absolute;
+		top: 6rem;
+		left: 25vw;
+		width: 70vw;
+		height: fit-content;
+		background-color:transparent;
+		z-index: 2;
+	}
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+	align-items: center;
+	z-index: -2;
+}
+
+.box {
+	height: 7rem;
+	width: 5rem;
+	background-color: red;
+	border-radius: 10%;
+	margin: 20px;
+	line-height: 7rem;
+	color: white;
+	font-weight: 500;
+	font-size: x-large;
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+.id {
+	font-size: larger;
+	font-family: 'Roboto';
+	margin: 5px;
+	color: rgb(0, 0, 0);
+}
+
+.idbox {
+	outline: none;
+	height: 2rem;
+	margin: 2px;
+}
+
+.submit {
+	width: 6rem;
+	height: 2rem;
+	background-color: rgb(85, 198, 243);
+	border: none;
+	border-radius: 10px;
+
+}
+.back {
+	width: 6rem;
+	height: 2rem;
+	background-color: rgb(85, 198, 243);
+	border: none;
+	border-radius: 10px;
+	margin: 30px;
+	position: relative;
+	left: 40%;
+	bottom: 15%;
+	transform: translateX(-50%);
+	display: inline-block;
+}
+@media only screen and (min-width: 450px) {
+    .back{
+        display: none;
+    }
+    
+    }
+
+span {
+	color: red;
+	font: 15px Arial;
+}
+
+@media only screen and (min-width: 450px) {
+	.inputbox {
+		width: 50%;
+	}
+}
+
+.tag1{
+	font-size: xx-large;
+	color: rgb(40,40,40);
+	font-family: 'ROBOTO';
+    font-style: italic;
+}

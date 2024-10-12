@@ -1,0 +1,86 @@
+@media only screen and (min-width: 450px) {
+    .desktopview{
+        position: absolute;
+        top: 4.5rem;
+        left: 25vw;
+        width: 70vw;
+        height: 100vh;
+        overflow: scroll;
+        
+        
+    }
+    
+}
+
+.desktopview::-webkit-scrollbar {
+    display: none;
+  }
+  
+.details{
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    width: fit-content;
+    position: absolute;
+    top: 20vh;
+}
+
+.tag1{
+    font-size: x-large;
+    font-family: 'roboto';
+}
+
+td{
+    border: none;
+    text-align: left;
+    
+}
+
+.up{
+    text-transform: none;
+}
+
+.inputbox{
+    border: none;
+    width: fit-content;
+    font-size: x-large;
+    font-family: 'roboto';
+    width: 40vw;
+}
+
+.btn1 {
+	width: 6rem;
+	height: 2rem;
+	background-color: rgb(85, 198, 243);
+	border: none;
+	border-radius: 10px;
+    position: absolute;
+    bottom: 35vh;
+    left: 10rem;
+    font-family: 'roboto';
+    font-size: larger;
+
+}
+.btn2 {
+	width: 6rem;
+	height: 2rem;
+	background-color: rgb(85, 198, 243);
+	border: none;
+	border-radius: 10px;
+    position: absolute;
+    bottom: 30vh;
+    left: 10rem;
+    font-family: 'roboto';
+    font-size: larger;
+
+}
+
+h1{
+    font-family: 'ALGERIAN';
+    font-weight: 400;
+}
+
+img{
+    position: absolute;
+    right: 0;
+    width: 40vh;
+}

@@ -1,0 +1,108 @@
+@media only screen and (min-width: 450px) {
+    .desktopview{
+        position: absolute;
+        top: 5rem;
+        left: 25vw;
+        width: 70vw;
+        height: fit-content;
+        
+        
+    }
+    
+}
+
+
+
+.input1{
+    width: 4rem;
+    height: 3.6rem;
+    text-align: center;
+    position: absolute;
+    right: 8rem;
+    font-size: xx-large;
+}
+.pname{
+    width: fit-content;
+    height: 3.6rem;
+    text-align: center;
+    position: absolute;
+    left: 10rem;
+    color: white;
+}
+
+.card{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    height: 4rem;
+    vertical-align: middle;
+    line-height: 4rem;
+    text-transform: capitalize;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card2{
+    background-color: #00203FFF;
+    opacity: .8;
+    color:white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    height: 4rem;
+    vertical-align: middle;
+    line-height: 4rem;
+    text-transform: capitalize;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.addbtn{
+    width: 5rem;
+    font-size: 3.5rem;
+    color: green;
+    border: none;
+}
+.subbtn{
+    width: 5rem;
+    font-size: 3.5rem;
+    color: red;
+    border: none;
+}
+
+.submitbtn{
+    background-color: antiquewhite;
+}
+
+.tabs{
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    width: max-content;
+    border-radius:7px;
+    border-bottom: solid rgb(92, 91, 91) 1px;
+}
+
+h2{
+    font-family: 'ROBOTO';
+    font-style: italic;
+    font-weight: 400;
+    font-size: xx-large;
+    color: navy;
+}

@@ -1,0 +1,289 @@
+@media only screen and (min-width: 450px) {
+    .desktopview{
+        position: absolute;
+        top: 4.5rem;
+        left: 25vw;
+        width: 70vw;
+        height: 100vh;
+        border: solid 2px black;
+       
+    }
+    
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+
+.clientname{
+    position: absolute;
+    left: 6rem;
+    top: 1rem;
+    width: 12rem;
+    height: 1.5rem;
+    
+
+}
+.clientemail{
+    position: absolute;
+    left: 3rem;
+    top: 5rem;
+    width: 18rem;
+    height: 1.5rem;
+    
+
+}
+
+
+
+.cart{
+    
+    position: absolute;
+    top: 10rem; 
+    left: 4rem;
+    width: 17rem;
+    
+}
+
+.tag1{
+    font-family: 'ALGERIAN';
+    font-size: x-large;
+}
+
+.additem{
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(62, 181, 250);
+    border-radius: 3px;
+    height: 1.8rem;
+   
+}
+
+.generate{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(62, 181, 250);
+    border-radius: 3px;
+    height: 1.8rem;
+    width: 35vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   
+
+}
+
+.invoiceinfo{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(215, 234, 241);
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    
+}
+
+.tag2{
+    position: relative;
+    top: -1.5rem;
+    margin-left: .5rem;
+}
+
+.table{
+    table-layout: fixed;
+    width: 90% ;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 14rem;
+    left: 2rem;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border: 1px solid #999;
+    padding: 0.5rem;
+}
+.table2{
+    table-layout: fixed;
+    width: 90% ;
+    position: relative;
+    top: 17rem;
+    left: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    
+}
+
+.idtable{
+    width: 5%;
+}
+
+.delbtn{
+    border: none;
+    background-color: red;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    position: absolute;
+    right: 1rem;
+    color: white;
+}
+
+
+
+
+
+
+.cartmodal{
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(199, 198, 196);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5rem;
+    overflow: scroll;
+    border-radius: 10px;  
+}
+
+
+.cartmodal::-webkit-scrollbar {
+    display: none;
+  }
+
+.cartitem,.cartitem2{
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-family: 'ROBOTO';
+}
+
+.invoicesection{
+    width: 45vw;
+    height: 90vh;
+    background-color: rgb(243, 245, 238);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.calcbtn{
+    border: none;
+    position: absolute;
+    bottom: 15rem;
+    left: 9rem;
+    width: 7rem;
+    background-color: rgb(62, 181, 250);
+    height: 2rem;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+.print{
+    border: none;
+    position: absolute;
+    bottom: 12rem;
+    left: 9rem;
+    width: 7rem;
+    background-color: rgb(62, 181, 250);
+    height: 2rem;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+
+.i1{
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: xx-large;
+    font-weight: 500;
+    color: blue;
+    font-family: 'ALGERIAN';
+}
+.i2{
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    font-size: xx-large;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather';
+}
+.i3{
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+    font-size: large;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-family: 'ROBOTO';
+}
+.i4{
+    position: absolute;
+    left: 2rem;
+    top: 9rem;
+    font-size: large;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-family: 'ROBOTO';
+}
+.i5{
+    position: absolute;
+    right: 2rem;
+    top: 4rem;
+    font-size: large;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-family: 'NEUTON';
+}
+.i6{
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    font-size: large;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    width: 15rem;
+    text-align: left;
+    padding-left: 10px;
+    height: 1.7rem;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    
+}
+
+.i7{
+    position: absolute;
+    left: 2rem;
+    top: 10.5rem;
+    font-size: large;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-family: 'ROBOTO';
+}
+
+.sub1{
+    position: relative;
+    background-color: rgb(205, 242, 245);
+    top: 17rem;
+    width: 11.8rem;
+    left: 29rem;
+    padding-bottom: .2rem;
+    overflow: hidden;
+
+}
+
+.sub2{
+    position: relative;
+    left: 1.5rem;
+    margin-top: .1rem;
+    margin-top: .1rem;
+    text-align: left;
+}

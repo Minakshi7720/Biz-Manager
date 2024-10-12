@@ -1,0 +1,220 @@
+.box1{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 10px;
+    border-bottom: solid rgb(228, 219, 202) 1px;
+}
+
+.tabs{
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    width: max-content;
+    border-radius:7px;
+    border-bottom: solid rgb(92, 91, 91) 1px;
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+}
+
+
+
+    .tableheading{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 10px;
+    border-bottom: solid rgb(228, 219, 202) 1px;
+    }
+    
+
+    .date1{
+        position: absolute;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-right: solid rgb(40, 40, 40) 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+        font-family: 'ALGERIAN';
+    }
+
+    .filter{
+        position: relative;
+        left: -3rem;
+        line-height: 3rem;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    
+
+    .profit1{
+        border-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        font-family: 'ALGERIAN';
+    }
+    
+
+    .growth1{
+        border-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        font-family: 'ALGERIAN';
+    }
+    
+
+
+    .flex1{
+        display: flex;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        line-height: 3rem;
+        vertical-align: middle;
+        justify-content: space-around;
+    }
+    
+
+
+.flex2{
+    display: flex;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    line-height: 3rem;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+
+.box2{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: solid rgb(40, 40, 40) 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box3{
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 214, 16);
+}
+.box3g{
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 214, 16);
+}
+.box3r{
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(250, 29, 14);
+}
+
+.profitbox{
+    position: relative;
+    left: 50%;
+    top: -1rem;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 4.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid rgb(66, 64, 64) 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+@media only screen and (min-width: 450px) {
+    .bigbox1{
+        margin-top: 2rem;
+        border: solid 2px black;
+        border-radius: 10px;
+        width: 100%;
+
+}
+    
+}
+
+@media only screen and (min-width: 450px) {
+    .desktopview{
+        position: absolute;
+        top: 4.5rem;
+        left: 25vw;
+        width: 70vw;
+        height: fit-content;
+        
+        padding: 1.5rem;
+    }
+    
+}
+
+.desktopview{
+    
+    padding: .2rem;
+}
+
+.ptag{
+    color: rgb(62, 148, 247);
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'ALGERIAN';
+    
+}
+
+.value{
+    font-size: xx-large;
+    color: rgb(62, 148, 247);
+    font-weight: 600;
+    font-family: 'ALGERIAN';
+}
+
+.bigbox1{
+        margin-top: 2rem;
+        border: solid 2px black;
+        border-radius: 10px;
+
+}

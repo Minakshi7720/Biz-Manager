@@ -1,0 +1,59 @@
+@media only screen and (min-width: 450px) {
+    .desktopview{
+        position: absolute;
+        top: 4.5rem;
+        left: 25vw;
+        width: 70vw;
+        height: 100vh;
+        border: solid 2px black;
+        
+    }
+    
+}
+
+.card{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    height: 4rem;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: middle;
+    line-height: 4rem;
+    text-transform: capitalize;
+    z-index: 4;
+}
+
+.addbtn{
+    width: 5rem;
+    font-size: 3.5rem;
+    color: green;
+    border: none;
+}
+.subbtn{
+    width: 5rem;
+    font-size: 3.5rem;
+    color: red;
+    border: none;
+}
+
+.submitbtn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttonsui{
+    position: relative;
+    top: 3rem;
+    
+}
